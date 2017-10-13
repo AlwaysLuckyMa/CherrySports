@@ -1,0 +1,465 @@
+2017-08-02 17:46:24.662 | JIGUANG | D - [JIGUANGService] Action - JPUSH begin Setup with appkey:95d7300332032f599feb9617 channel:App Store isProduction:FALSE advertisingIdentifier: 551293DB-2F87-49B9-881F-B742CFC88A2D
+2017-08-02 17:46:24.739 | JIGUANG | I - [JIGUANGService] 
+--------------------------- JPush Log ----------------------------
+--------------------JPush SDK Version:3.0.0--build:13----------
+--------------------JCore Lib Version:1.0.0------------
+-----------------AppKey:95d7300332032f599feb9617----------------
+----------------------------------------------------------------
+2017-08-02 17:46:24.745 | JIGUANG | I - [JIGUANGClientController] Action - jpush setup
+2017-08-02 17:46:24.819 | JIGUANG | I - [JIGUANGClientController] Action - setup
+2017-08-02 17:46:24.827 | JIGUANG | D - [JIGUANGService] Action - resetBadge
+2017-08-02 17:46:24.856 | JIGUANG | E - [JIGUANGClientController] load aps evi error, no em provision url
+2017-08-02 17:46:25.144 | JIGUANG | D - [JIGUANGHttpSessionController] 获取当前设备网络的 wifi 或者 WWAN 信息
+2017-08-02 17:46:25.159 | JIGUANG | D - [JIGUANGHttpSessionController] wifi 信息:{
+	ssid = "洛浔体育-电脑";
+	mac_address = "f4:83:cd:a9:11:42"
+}
+2017-08-02 17:46:25.160 | JIGUANG | D - [JIGUANGPageFlow] trySetupSession
+2017-08-02 17:46:25.160 | JIGUANG | D - [JIGUANGPageFlow] setupSession
+2017-08-02 17:46:25.256 | JIGUANG | D - [JIGUANGUserActiveReport] report content {
+	time = "09:49:45";
+	session_id = "a3eaa572aeb502079f9d7bacdc4046e4";
+	duration = 503.4;
+	date = "2017-07-31";
+	type = "active_terminate";
+	itime = 1501465785;
+	activities = [
+	];
+	timezone = "+8"
+}
+2017-08-02 17:46:25.304 | JIGUANG | D - [JIGUANGHttpSessionController] Action - setupSession
+2017-08-02 17:46:25.306 | JIGUANG | D - [JIGUANGPageFlow] setupSession
+2017-08-02 17:46:25.307 | JIGUANG | D - [JIGUANGPageFlow] resetCurrentPage
+2017-08-02 17:46:25.341 | JIGUANG | D - [JIGUANGLocationReport] wifi 信息:{
+	mac_address = "f4:83:cd:a9:11:42";
+	ssid = "洛浔体育-电脑"
+}
+2017-08-02 17:46:25.634 | JIGUANG | D - [JIGUANGService] Action - registerDeviceToken: <36d801b4 bddd2e59 783bcf35 cef0ef94 91ec09fc a444f130 4d4ad366 04f8118f>
+2017-08-02 17:46:25.692 | JIGUANG | D - [JIGUANGUserDefaultsController] Action - setCurrentDeviceToken - 36d801b4bddd2e59783bcf35cef0ef9491ec09fca444f1304d4ad36604f8118f
+2017-08-02 17:46:25.704 | JIGUANG | D - [JIGUANGNetworkController] Action - trySetupSession
+2017-08-02 17:46:25.709 | JIGUANG | D - [JIGUANGHttpSessionController] Action - setupSession
+2017-08-02 17:46:25.715 | JIGUANG | D - [JIGUANGNetworkController] userDefaut verified: 1, curNetworkStatus: 2
+2017-08-02 17:46:25.722 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPFNetworkIsConnectingNotification (null)
+2017-08-02 17:46:25.723 | JIGUANG | D - [JIGUANGSessionController] Action - connect
+2017-08-02 17:46:25.723 | JIGUANG | D - [JIGUANGSessionController] Action - isSisOnProtect
+2017-08-02 17:46:25.724 | JIGUANG | D - [JIGUANGSessionController] sis is not on protect
+2017-08-02 17:46:25.724 | JIGUANG | D - [JIGUANGSessionController] Action - reset sis cache
+2017-08-02 17:46:25.725 | JIGUANG | D - [JIGUANGAddressController] 开始Sis解析
+2017-08-02 17:46:25.728 | JIGUANG | D - [JIGUANGAddressController] Action - sendSisRequest
+2017-08-02 17:46:25.791 | JIGUANG | D - [JIGUANGReport] send report:[
+	{
+		session_id = "2f4ce969aa8e3f491f3b5ce74e5d10a8";
+		date = "2017-08-02";
+		timezone = "+8";
+		type = "active_launch";
+		time = "17:46:25";
+		itime = 1501667185
+	}
+] log succed
+2017-08-02 17:46:25.793 | JIGUANG | D - [JIGUANGAddressController] get address :103.229.215.60 from host : s.jpush.cn
+2017-08-02 17:46:25.793 | JIGUANG | D - [JIGUANGAddressController] Action - sendSisRequest:toDefaultPort
+2017-08-02 17:46:25.795 | JIGUANG | D - [JIGUANGUdpSocket] close udp socket,info:
+2017-08-02 17:46:25.822 | JIGUANG | D - [JIGUANGUdpSocket] send udp data
+2017-08-02 17:46:25.823 | JIGUANG | D - [JIGUANGUdpSocket] send udp data succeed
+2017-08-02 17:46:25.824 | JIGUANG | D - [JIGUANGUdpSocket] udp socket begin send behavior
+2017-08-02 17:46:25.874 | JIGUANG | D - [JIGUANGAddressController] Action - parse
+2017-08-02 17:46:26.180 | JIGUANG | D - [JIGUANGAddressController] Action - parse ips address
+2017-08-02 17:46:26.284 | JIGUANG | D - [JIGUANGAddressController] Action - parseUdpReportAddress:
+2017-08-02 17:46:26.341 | JIGUANG | D - [JIGUANGAddressController] Action - parseOptionAddress
+2017-08-02 17:46:26.341 | JIGUANG | D - [JIGUANGUdpSocket] close udp socket,info:
+2017-08-02 17:46:26.343 | JIGUANG | D - [JIGUANGAddressController] receive sis result
+2017-08-02 17:46:26.344 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:46:26.344 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:46:26.344 | JIGUANG | D - [JIGUANGSessionController] connectTcp:121.46.25.200:7006
+2017-08-02 17:46:26.345 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 121.46.25.200,port 7006
+2017-08-02 17:46:31.356 | JIGUANG | E - [JIGUANGTcpSocket] connect failed with socket timeout
+2017-08-02 17:46:31.358 | JIGUANG | E - [JIGUANGTcpSocket] connect socket failed:socket timeout
+2017-08-02 17:46:31.360 | JIGUANG | E - [JIGUANGSessionController] 连接服务器失败
+2017-08-02 17:46:31.377 | JIGUANG | I - [JIGUANGBadgeNumberReport] set badge:0 succeed
+2017-08-02 17:46:31.391 | JIGUANG | D - [JIGUANGReport] send report:[
+	{
+		type = "loc_info";
+		itime = 1501667185;
+		data = [
+			{
+				cell = [
+					{
+					}
+				];
+				wifi = [
+					{
+						ssid = "洛浔体育-电脑";
+						mac_address = "f4:83:cd:a9:11:42"
+					}
+				];
+				gps = [
+					{
+					}
+				];
+				itime = 1501667185
+			}
+		]
+	}
+] log succed
+2017-08-02 17:46:31.417 | JIGUANG | D - [JIGUANGReport] send report:[
+	{
+		time = "09:49:45";
+		session_id = "a3eaa572aeb502079f9d7bacdc4046e4";
+		duration = 503.4;
+		date = "2017-07-31";
+		type = "active_terminate";
+		itime = 1501465785;
+		activities = [
+		];
+		timezone = "+8"
+	}
+] log succed
+2017-08-02 17:46:31.418 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:46:31.419 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:46:31.419 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:46:31.420 | JIGUANG | D - [JIGUANGSessionController] connectTcp:47.90.7.116:7006
+2017-08-02 17:46:31.421 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 47.90.7.116,port 7006
+2017-08-02 17:46:31.490 | JIGUANG | D - [JIGUANGTcpSocket] 连接主机成功
+2017-08-02 17:46:31.491 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2017-08-02 17:46:31.549 | JIGUANG | D - [JIGUANGTcpSocket] tcp connection closed by remote
+2017-08-02 17:46:31.549 | JIGUANG | D - [JIGUANGTcpSocket] 关闭TCP连接
+2017-08-02 17:46:31.552 | JIGUANG | D - [JIGUANGSessionController] Action - connectUdp:
+2017-08-02 17:46:31.553 | JIGUANG | D - [JIGUANGSessionController] Action - connectWithUdpCoreAddress:
+2017-08-02 17:46:31.554 | JIGUANG | D - [JIGUANGUdpSocket] udp socket connected
+2017-08-02 17:46:31.628 | JIGUANG | D - [JIGUANGSessionController] Action - doSendTcpRequest
+2017-08-02 17:46:31.631 | JIGUANG | D - [JIGUANGSessionController] 当前网络未连接，发送请求失败
+2017-08-02 17:46:31.632 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2017-08-02 17:46:31.632 | JIGUANG | D - [JIGUANGSessionController] Action - reenqueueSendingRequests
+2017-08-02 17:46:31.632 | JIGUANG | D - [JIGUANGUdpSocket] close udp socket,info:
+2017-08-02 17:46:31.639 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:46:31.640 | JIGUANG | D - [JIGUANGSessionController] Action - startDelaySetupTimer
+2017-08-02 17:46:31.641 | JIGUANG | D - [JIGUANGSessionController] session will setup delayed with time interval: 2.000000
+2017-08-02 17:46:33.647 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPFNetworkIsConnectingNotification (null)
+2017-08-02 17:46:33.648 | JIGUANG | D - [JIGUANGSessionController] Action - connect
+2017-08-02 17:46:33.649 | JIGUANG | D - [JIGUANGSessionController] Action - isSisOnProtect
+2017-08-02 17:46:33.649 | JIGUANG | D - [JIGUANGSessionController] sis is on protect
+2017-08-02 17:46:33.650 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:46:33.650 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:46:33.651 | JIGUANG | D - [JIGUANGSessionController] connectTcp:121.46.25.200:7006
+2017-08-02 17:46:33.651 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 121.46.25.200,port 7006
+2017-08-02 17:46:38.659 | JIGUANG | E - [JIGUANGTcpSocket] connect failed with socket timeout
+2017-08-02 17:46:38.711 | JIGUANG | E - [JIGUANGTcpSocket] connect socket failed:socket timeout
+2017-08-02 17:46:38.717 | JIGUANG | E - [JIGUANGSessionController] 连接服务器失败
+2017-08-02 17:46:38.733 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:46:38.733 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:46:38.735 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:46:38.735 | JIGUANG | D - [JIGUANGSessionController] connectTcp:47.90.7.116:7006
+2017-08-02 17:46:38.736 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 47.90.7.116,port 7006
+2017-08-02 17:46:38.811 | JIGUANG | D - [JIGUANGTcpSocket] 连接主机成功
+2017-08-02 17:46:38.813 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2017-08-02 17:46:38.814 | JIGUANG | D - [JIGUANGSessionController] Action - connectUdp:
+2017-08-02 17:46:38.814 | JIGUANG | D - [JIGUANGSessionController] Action - connectWithUdpCoreAddress:
+2017-08-02 17:46:38.815 | JIGUANG | D - [JIGUANGUdpSocket] udp socket connected
+2017-08-02 17:46:38.880 | JIGUANG | D - [JIGUANGSessionController] Action - doSendTcpRequest
+2017-08-02 17:46:38.882 | JIGUANG | D - [JIGUANGTcpSocket] tcp connection closed by remote
+2017-08-02 17:46:38.883 | JIGUANG | D - [JIGUANGTcpSocket] 关闭TCP连接
+2017-08-02 17:46:38.884 | JIGUANG | W - [JIGUANGSessionController] 连接被关闭
+2017-08-02 17:46:38.886 | JIGUANG | W - [JIGUANGSessionController] connect close by remote
+2017-08-02 17:46:38.887 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2017-08-02 17:46:38.887 | JIGUANG | D - [JIGUANGSessionController] Action - reenqueueSendingRequests
+2017-08-02 17:46:38.888 | JIGUANG | D - [JIGUANGUdpSocket] close udp socket,info:
+2017-08-02 17:46:38.896 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:46:38.897 | JIGUANG | D - [JIGUANGSessionController] Action - startDelaySetupTimer
+2017-08-02 17:46:38.898 | JIGUANG | D - [JIGUANGSessionController] session will setup delayed with time interval: 2.000000
+2017-08-02 17:46:40.900 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPFNetworkIsConnectingNotification (null)
+2017-08-02 17:46:40.901 | JIGUANG | D - [JIGUANGSessionController] Action - connect
+2017-08-02 17:46:40.902 | JIGUANG | D - [JIGUANGSessionController] Action - isSisOnProtect
+2017-08-02 17:46:40.904 | JIGUANG | D - [JIGUANGSessionController] sis is on protect
+2017-08-02 17:46:40.904 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:46:40.905 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:46:40.905 | JIGUANG | D - [JIGUANGSessionController] connectTcp:121.46.25.200:7006
+2017-08-02 17:46:40.906 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 121.46.25.200,port 7006
+2017-08-02 17:46:45.910 | JIGUANG | E - [JIGUANGTcpSocket] connect failed with socket timeout
+2017-08-02 17:46:45.914 | JIGUANG | E - [JIGUANGTcpSocket] connect socket failed:socket timeout
+2017-08-02 17:46:45.915 | JIGUANG | E - [JIGUANGSessionController] 连接服务器失败
+2017-08-02 17:46:45.923 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:46:45.923 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:46:45.924 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:46:45.924 | JIGUANG | D - [JIGUANGSessionController] connectTcp:47.90.7.116:7006
+2017-08-02 17:46:45.924 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 47.90.7.116,port 7006
+2017-08-02 17:46:45.988 | JIGUANG | D - [JIGUANGTcpSocket] 连接主机成功
+2017-08-02 17:46:45.994 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2017-08-02 17:46:45.997 | JIGUANG | D - [JIGUANGSessionController] Action - connectUdp:
+2017-08-02 17:46:45.998 | JIGUANG | D - [JIGUANGSessionController] Action - connectWithUdpCoreAddress:
+2017-08-02 17:46:45.999 | JIGUANG | D - [JIGUANGUdpSocket] udp socket connected
+2017-08-02 17:46:46.057 | JIGUANG | D - [JIGUANGSessionController] Action - doSendTcpRequest
+2017-08-02 17:46:46.058 | JIGUANG | D - [JIGUANGTcpSocket] tcp connection closed by remote
+2017-08-02 17:46:46.059 | JIGUANG | D - [JIGUANGTcpSocket] 关闭TCP连接
+2017-08-02 17:46:46.061 | JIGUANG | W - [JIGUANGSessionController] 连接被关闭
+2017-08-02 17:46:46.065 | JIGUANG | W - [JIGUANGSessionController] connect close by remote
+2017-08-02 17:46:46.066 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2017-08-02 17:46:46.066 | JIGUANG | D - [JIGUANGSessionController] Action - reenqueueSendingRequests
+2017-08-02 17:46:46.067 | JIGUANG | D - [JIGUANGUdpSocket] close udp socket,info:
+2017-08-02 17:46:46.072 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:46:46.072 | JIGUANG | D - [JIGUANGSessionController] Action - startDelaySetupTimer
+2017-08-02 17:46:46.073 | JIGUANG | D - [JIGUANGSessionController] session will setup delayed with time interval: 2.000000
+2017-08-02 17:46:48.077 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPFNetworkIsConnectingNotification (null)
+2017-08-02 17:46:48.078 | JIGUANG | D - [JIGUANGSessionController] Action - connect
+2017-08-02 17:46:48.079 | JIGUANG | D - [JIGUANGSessionController] Action - isSisOnProtect
+2017-08-02 17:46:48.079 | JIGUANG | D - [JIGUANGSessionController] sis is on protect
+2017-08-02 17:46:48.079 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:46:48.080 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:46:48.081 | JIGUANG | D - [JIGUANGSessionController] connectTcp:121.46.25.200:7006
+2017-08-02 17:46:48.081 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 121.46.25.200,port 7006
+2017-08-02 17:46:53.089 | JIGUANG | E - [JIGUANGTcpSocket] connect failed with socket timeout
+2017-08-02 17:46:53.092 | JIGUANG | E - [JIGUANGTcpSocket] connect socket failed:socket timeout
+2017-08-02 17:46:53.093 | JIGUANG | E - [JIGUANGSessionController] 连接服务器失败
+2017-08-02 17:46:53.102 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:46:53.103 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:46:53.104 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:46:53.104 | JIGUANG | D - [JIGUANGSessionController] connectTcp:47.90.7.116:7006
+2017-08-02 17:46:53.105 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 47.90.7.116,port 7006
+2017-08-02 17:46:53.181 | JIGUANG | D - [JIGUANGTcpSocket] 连接主机成功
+2017-08-02 17:46:53.184 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2017-08-02 17:46:53.185 | JIGUANG | D - [JIGUANGSessionController] Action - connectUdp:
+2017-08-02 17:46:53.185 | JIGUANG | D - [JIGUANGSessionController] Action - connectWithUdpCoreAddress:
+2017-08-02 17:46:53.187 | JIGUANG | D - [JIGUANGUdpSocket] udp socket connected
+2017-08-02 17:46:53.256 | JIGUANG | D - [JIGUANGSessionController] Action - doSendTcpRequest
+2017-08-02 17:46:53.259 | JIGUANG | D - [JIGUANGTcpSocket] tcp connection closed by remote
+2017-08-02 17:46:53.259 | JIGUANG | D - [JIGUANGTcpSocket] 关闭TCP连接
+2017-08-02 17:46:53.262 | JIGUANG | W - [JIGUANGSessionController] 连接被关闭
+2017-08-02 17:46:53.264 | JIGUANG | W - [JIGUANGSessionController] connect close by remote
+2017-08-02 17:46:53.265 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2017-08-02 17:46:53.266 | JIGUANG | D - [JIGUANGSessionController] Action - reenqueueSendingRequests
+2017-08-02 17:46:53.266 | JIGUANG | D - [JIGUANGUdpSocket] close udp socket,info:
+2017-08-02 17:46:53.272 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:46:53.273 | JIGUANG | D - [JIGUANGSessionController] Action - startDelaySetupTimer
+2017-08-02 17:46:53.273 | JIGUANG | D - [JIGUANGSessionController] session will setup delayed with time interval: 2.000000
+2017-08-02 17:46:55.280 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPFNetworkIsConnectingNotification (null)
+2017-08-02 17:46:55.281 | JIGUANG | D - [JIGUANGSessionController] Action - connect
+2017-08-02 17:46:55.282 | JIGUANG | D - [JIGUANGSessionController] Action - isSisOnProtect
+2017-08-02 17:46:55.282 | JIGUANG | D - [JIGUANGSessionController] sis is on protect
+2017-08-02 17:46:55.283 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:46:55.283 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:46:55.284 | JIGUANG | D - [JIGUANGSessionController] connectTcp:121.46.25.200:7006
+2017-08-02 17:46:55.284 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 121.46.25.200,port 7006
+2017-08-02 17:47:00.291 | JIGUANG | E - [JIGUANGTcpSocket] connect failed with socket timeout
+2017-08-02 17:47:00.293 | JIGUANG | E - [JIGUANGTcpSocket] connect socket failed:socket timeout
+2017-08-02 17:47:00.296 | JIGUANG | E - [JIGUANGSessionController] 连接服务器失败
+2017-08-02 17:47:00.305 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:47:00.305 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:47:00.306 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:47:00.306 | JIGUANG | D - [JIGUANGSessionController] connectTcp:47.90.7.116:7006
+2017-08-02 17:47:00.307 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 47.90.7.116,port 7006
+2017-08-02 17:47:00.383 | JIGUANG | D - [JIGUANGTcpSocket] 连接主机成功
+2017-08-02 17:47:00.385 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2017-08-02 17:47:00.386 | JIGUANG | D - [JIGUANGSessionController] Action - connectUdp:
+2017-08-02 17:47:00.386 | JIGUANG | D - [JIGUANGSessionController] Action - connectWithUdpCoreAddress:
+2017-08-02 17:47:00.388 | JIGUANG | D - [JIGUANGUdpSocket] udp socket connected
+2017-08-02 17:47:00.457 | JIGUANG | D - [JIGUANGSessionController] Action - doSendTcpRequest
+2017-08-02 17:47:00.523 | JIGUANG | E - [JIGUANGTcpSocket] tcp read error occured: errocode 54
+2017-08-02 17:47:00.527 | JIGUANG | D - [JIGUANGTcpSocket] 关闭TCP连接
+2017-08-02 17:47:00.531 | JIGUANG | W - [JIGUANGSessionController] 连接被关闭
+2017-08-02 17:47:00.532 | JIGUANG | W - [JIGUANGSessionController] connect close by remote
+2017-08-02 17:47:00.533 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2017-08-02 17:47:00.534 | JIGUANG | D - [JIGUANGSessionController] Action - reenqueueSendingRequests
+2017-08-02 17:47:00.534 | JIGUANG | D - [JIGUANGUdpSocket] close udp socket,info:
+2017-08-02 17:47:00.539 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:47:00.539 | JIGUANG | D - [JIGUANGSessionController] Action - startDelaySetupTimer
+2017-08-02 17:47:00.540 | JIGUANG | D - [JIGUANGSessionController] session will setup delayed with time interval: 2.000000
+2017-08-02 17:47:02.542 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPFNetworkIsConnectingNotification (null)
+2017-08-02 17:47:02.543 | JIGUANG | D - [JIGUANGSessionController] Action - connect
+2017-08-02 17:47:02.544 | JIGUANG | D - [JIGUANGSessionController] Action - isSisOnProtect
+2017-08-02 17:47:02.544 | JIGUANG | D - [JIGUANGSessionController] sis is on protect
+2017-08-02 17:47:02.545 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:47:02.547 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:47:02.548 | JIGUANG | D - [JIGUANGSessionController] connectTcp:121.46.25.200:7006
+2017-08-02 17:47:02.548 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 121.46.25.200,port 7006
+2017-08-02 17:47:07.557 | JIGUANG | E - [JIGUANGTcpSocket] connect failed with socket timeout
+2017-08-02 17:47:07.562 | JIGUANG | E - [JIGUANGTcpSocket] connect socket failed:socket timeout
+2017-08-02 17:47:07.563 | JIGUANG | E - [JIGUANGSessionController] 连接服务器失败
+2017-08-02 17:47:07.574 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:47:07.575 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:47:07.575 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:47:07.576 | JIGUANG | D - [JIGUANGSessionController] connectTcp:47.90.7.116:7006
+2017-08-02 17:47:07.576 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 47.90.7.116,port 7006
+2017-08-02 17:47:07.746 | JIGUANG | D - [JIGUANGTcpSocket] 连接主机成功
+2017-08-02 17:47:07.747 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2017-08-02 17:47:07.748 | JIGUANG | D - [JIGUANGSessionController] Action - connectUdp:
+2017-08-02 17:47:07.754 | JIGUANG | D - [JIGUANGSessionController] Action - connectWithUdpCoreAddress:
+2017-08-02 17:47:07.755 | JIGUANG | D - [JIGUANGUdpSocket] udp socket connected
+2017-08-02 17:47:07.824 | JIGUANG | D - [JIGUANGSessionController] Action - doSendTcpRequest
+2017-08-02 17:47:07.825 | JIGUANG | D - [JIGUANGTcpSocket] tcp connection closed by remote
+2017-08-02 17:47:07.826 | JIGUANG | D - [JIGUANGTcpSocket] 关闭TCP连接
+2017-08-02 17:47:07.830 | JIGUANG | W - [JIGUANGSessionController] 连接被关闭
+2017-08-02 17:47:07.834 | JIGUANG | W - [JIGUANGSessionController] connect close by remote
+2017-08-02 17:47:07.836 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2017-08-02 17:47:07.837 | JIGUANG | D - [JIGUANGSessionController] Action - reenqueueSendingRequests
+2017-08-02 17:47:07.838 | JIGUANG | D - [JIGUANGUdpSocket] close udp socket,info:
+2017-08-02 17:47:07.844 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:47:07.845 | JIGUANG | D - [JIGUANGSessionController] Action - startDelaySetupTimer
+2017-08-02 17:47:07.846 | JIGUANG | D - [JIGUANGSessionController] session will setup delayed with time interval: 2.000000
+2017-08-02 17:47:09.851 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPFNetworkIsConnectingNotification (null)
+2017-08-02 17:47:09.852 | JIGUANG | D - [JIGUANGSessionController] Action - connect
+2017-08-02 17:47:09.853 | JIGUANG | D - [JIGUANGSessionController] Action - isSisOnProtect
+2017-08-02 17:47:09.853 | JIGUANG | D - [JIGUANGSessionController] sis is on protect
+2017-08-02 17:47:09.853 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:47:09.854 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:47:09.854 | JIGUANG | D - [JIGUANGSessionController] connectTcp:121.46.25.200:7006
+2017-08-02 17:47:09.855 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 121.46.25.200,port 7006
+2017-08-02 17:47:14.859 | JIGUANG | E - [JIGUANGTcpSocket] connect failed with socket timeout
+2017-08-02 17:47:14.863 | JIGUANG | E - [JIGUANGTcpSocket] connect socket failed:socket timeout
+2017-08-02 17:47:14.867 | JIGUANG | E - [JIGUANGSessionController] 连接服务器失败
+2017-08-02 17:47:14.877 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:47:14.878 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:47:14.879 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:47:14.879 | JIGUANG | D - [JIGUANGSessionController] connectTcp:47.90.7.116:7006
+2017-08-02 17:47:14.879 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 47.90.7.116,port 7006
+2017-08-02 17:47:14.951 | JIGUANG | D - [JIGUANGTcpSocket] 连接主机成功
+2017-08-02 17:47:14.956 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2017-08-02 17:47:14.957 | JIGUANG | D - [JIGUANGSessionController] Action - connectUdp:
+2017-08-02 17:47:14.959 | JIGUANG | D - [JIGUANGSessionController] Action - connectWithUdpCoreAddress:
+2017-08-02 17:47:14.961 | JIGUANG | D - [JIGUANGUdpSocket] udp socket connected
+2017-08-02 17:47:15.039 | JIGUANG | D - [JIGUANGSessionController] Action - doSendTcpRequest
+2017-08-02 17:47:15.040 | JIGUANG | D - [JIGUANGTcpSocket] tcp connection closed by remote
+2017-08-02 17:47:15.041 | JIGUANG | D - [JIGUANGTcpSocket] 关闭TCP连接
+2017-08-02 17:47:15.043 | JIGUANG | W - [JIGUANGSessionController] 连接被关闭
+2017-08-02 17:47:15.045 | JIGUANG | W - [JIGUANGSessionController] connect close by remote
+2017-08-02 17:47:15.046 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2017-08-02 17:47:15.046 | JIGUANG | D - [JIGUANGSessionController] Action - reenqueueSendingRequests
+2017-08-02 17:47:15.046 | JIGUANG | D - [JIGUANGUdpSocket] close udp socket,info:
+2017-08-02 17:47:15.053 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:47:15.053 | JIGUANG | D - [JIGUANGSessionController] Action - startDelaySetupTimer
+2017-08-02 17:47:15.055 | JIGUANG | D - [JIGUANGSessionController] session will setup delayed with time interval: 2.000000
+2017-08-02 17:47:17.060 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPFNetworkIsConnectingNotification (null)
+2017-08-02 17:47:17.063 | JIGUANG | D - [JIGUANGSessionController] Action - connect
+2017-08-02 17:47:17.064 | JIGUANG | D - [JIGUANGSessionController] Action - isSisOnProtect
+2017-08-02 17:47:17.064 | JIGUANG | D - [JIGUANGSessionController] sis is on protect
+2017-08-02 17:47:17.065 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:47:17.066 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:47:17.066 | JIGUANG | D - [JIGUANGSessionController] connectTcp:121.46.25.200:7006
+2017-08-02 17:47:17.067 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 121.46.25.200,port 7006
+2017-08-02 17:47:22.074 | JIGUANG | E - [JIGUANGTcpSocket] connect failed with socket timeout
+2017-08-02 17:47:22.082 | JIGUANG | E - [JIGUANGTcpSocket] connect socket failed:socket timeout
+2017-08-02 17:47:22.084 | JIGUANG | E - [JIGUANGSessionController] 连接服务器失败
+2017-08-02 17:47:22.111 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:47:22.112 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:47:22.112 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:47:22.113 | JIGUANG | D - [JIGUANGSessionController] connectTcp:47.90.7.116:7006
+2017-08-02 17:47:22.114 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 47.90.7.116,port 7006
+2017-08-02 17:47:22.180 | JIGUANG | D - [JIGUANGTcpSocket] 连接主机成功
+2017-08-02 17:47:22.182 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2017-08-02 17:47:22.183 | JIGUANG | D - [JIGUANGSessionController] Action - connectUdp:
+2017-08-02 17:47:22.183 | JIGUANG | D - [JIGUANGSessionController] Action - connectWithUdpCoreAddress:
+2017-08-02 17:47:22.185 | JIGUANG | D - [JIGUANGUdpSocket] udp socket connected
+2017-08-02 17:47:22.241 | JIGUANG | D - [JIGUANGSessionController] Action - doSendTcpRequest
+2017-08-02 17:47:22.247 | JIGUANG | E - [JIGUANGTcpSocket] tcp read error occured: errocode 54
+2017-08-02 17:47:22.248 | JIGUANG | D - [JIGUANGTcpSocket] 关闭TCP连接
+2017-08-02 17:47:22.251 | JIGUANG | W - [JIGUANGSessionController] 连接被关闭
+2017-08-02 17:47:22.252 | JIGUANG | W - [JIGUANGSessionController] connect close by remote
+2017-08-02 17:47:22.254 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2017-08-02 17:47:22.254 | JIGUANG | D - [JIGUANGSessionController] Action - reenqueueSendingRequests
+2017-08-02 17:47:22.255 | JIGUANG | D - [JIGUANGUdpSocket] close udp socket,info:
+2017-08-02 17:47:22.261 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:47:22.262 | JIGUANG | D - [JIGUANGSessionController] Action - startDelaySetupTimer
+2017-08-02 17:47:22.263 | JIGUANG | D - [JIGUANGSessionController] session will setup delayed with time interval: 2.000000
+2017-08-02 17:47:24.269 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPFNetworkIsConnectingNotification (null)
+2017-08-02 17:47:24.270 | JIGUANG | D - [JIGUANGSessionController] Action - connect
+2017-08-02 17:47:24.270 | JIGUANG | D - [JIGUANGSessionController] Action - isSisOnProtect
+2017-08-02 17:47:24.271 | JIGUANG | D - [JIGUANGSessionController] sis is on protect
+2017-08-02 17:47:24.271 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:47:24.271 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:47:24.272 | JIGUANG | D - [JIGUANGSessionController] connectTcp:121.46.25.200:7006
+2017-08-02 17:47:24.272 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 121.46.25.200,port 7006
+2017-08-02 17:47:29.282 | JIGUANG | E - [JIGUANGTcpSocket] connect failed with socket timeout
+2017-08-02 17:47:29.286 | JIGUANG | E - [JIGUANGTcpSocket] connect socket failed:socket timeout
+2017-08-02 17:47:29.288 | JIGUANG | E - [JIGUANGSessionController] 连接服务器失败
+2017-08-02 17:47:29.302 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:47:29.302 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:47:29.303 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:47:29.303 | JIGUANG | D - [JIGUANGSessionController] connectTcp:47.90.7.116:7006
+2017-08-02 17:47:29.304 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 47.90.7.116,port 7006
+2017-08-02 17:47:29.369 | JIGUANG | D - [JIGUANGTcpSocket] 连接主机成功
+2017-08-02 17:47:29.370 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2017-08-02 17:47:29.371 | JIGUANG | D - [JIGUANGSessionController] Action - connectUdp:
+2017-08-02 17:47:29.372 | JIGUANG | D - [JIGUANGSessionController] Action - connectWithUdpCoreAddress:
+2017-08-02 17:47:29.373 | JIGUANG | D - [JIGUANGUdpSocket] udp socket connected
+2017-08-02 17:47:29.439 | JIGUANG | D - [JIGUANGSessionController] Action - doSendTcpRequest
+2017-08-02 17:47:29.441 | JIGUANG | D - [JIGUANGTcpSocket] tcp connection closed by remote
+2017-08-02 17:47:29.442 | JIGUANG | D - [JIGUANGTcpSocket] 关闭TCP连接
+2017-08-02 17:47:29.447 | JIGUANG | W - [JIGUANGSessionController] 连接被关闭
+2017-08-02 17:47:29.449 | JIGUANG | W - [JIGUANGSessionController] connect close by remote
+2017-08-02 17:47:29.450 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2017-08-02 17:47:29.451 | JIGUANG | D - [JIGUANGSessionController] Action - reenqueueSendingRequests
+2017-08-02 17:47:29.451 | JIGUANG | D - [JIGUANGUdpSocket] close udp socket,info:
+2017-08-02 17:47:29.456 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:47:29.456 | JIGUANG | D - [JIGUANGSessionController] Action - startDelaySetupTimer
+2017-08-02 17:47:29.457 | JIGUANG | D - [JIGUANGSessionController] session will setup delayed with time interval: 2.000000
+2017-08-02 17:47:31.465 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPFNetworkIsConnectingNotification (null)
+2017-08-02 17:47:31.466 | JIGUANG | D - [JIGUANGSessionController] Action - connect
+2017-08-02 17:47:31.467 | JIGUANG | D - [JIGUANGSessionController] Action - isSisOnProtect
+2017-08-02 17:47:31.467 | JIGUANG | D - [JIGUANGSessionController] sis is on protect
+2017-08-02 17:47:31.468 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:47:31.469 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:47:31.469 | JIGUANG | D - [JIGUANGSessionController] connectTcp:121.46.25.200:7006
+2017-08-02 17:47:31.470 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 121.46.25.200,port 7006
+2017-08-02 17:47:36.476 | JIGUANG | E - [JIGUANGTcpSocket] connect failed with socket timeout
+2017-08-02 17:47:36.481 | JIGUANG | E - [JIGUANGTcpSocket] connect socket failed:socket timeout
+2017-08-02 17:47:36.483 | JIGUANG | E - [JIGUANGSessionController] 连接服务器失败
+2017-08-02 17:47:36.491 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:47:36.492 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:47:36.492 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:47:36.493 | JIGUANG | D - [JIGUANGSessionController] connectTcp:47.90.7.116:7006
+2017-08-02 17:47:36.493 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 47.90.7.116,port 7006
+2017-08-02 17:47:36.566 | JIGUANG | D - [JIGUANGTcpSocket] 连接主机成功
+2017-08-02 17:47:36.569 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2017-08-02 17:47:36.570 | JIGUANG | D - [JIGUANGSessionController] Action - connectUdp:
+2017-08-02 17:47:36.570 | JIGUANG | D - [JIGUANGSessionController] Action - connectWithUdpCoreAddress:
+2017-08-02 17:47:36.572 | JIGUANG | D - [JIGUANGUdpSocket] udp socket connected
+2017-08-02 17:47:36.654 | JIGUANG | D - [JIGUANGSessionController] Action - doSendTcpRequest
+2017-08-02 17:47:36.661 | JIGUANG | D - [JIGUANGTcpSocket] tcp connection closed by remote
+2017-08-02 17:47:36.669 | JIGUANG | D - [JIGUANGTcpSocket] 关闭TCP连接
+2017-08-02 17:47:36.672 | JIGUANG | W - [JIGUANGSessionController] 连接被关闭
+2017-08-02 17:47:36.674 | JIGUANG | W - [JIGUANGSessionController] connect close by remote
+2017-08-02 17:47:36.675 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2017-08-02 17:47:36.676 | JIGUANG | D - [JIGUANGSessionController] Action - reenqueueSendingRequests
+2017-08-02 17:47:36.677 | JIGUANG | D - [JIGUANGUdpSocket] close udp socket,info:
+2017-08-02 17:47:36.686 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:47:36.687 | JIGUANG | D - [JIGUANGSessionController] Action - startDelaySetupTimer
+2017-08-02 17:47:36.687 | JIGUANG | D - [JIGUANGSessionController] session will setup delayed with time interval: 2.000000
+2017-08-02 17:47:38.693 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPFNetworkIsConnectingNotification (null)
+2017-08-02 17:47:38.694 | JIGUANG | D - [JIGUANGSessionController] Action - connect
+2017-08-02 17:47:38.694 | JIGUANG | D - [JIGUANGSessionController] Action - isSisOnProtect
+2017-08-02 17:47:38.695 | JIGUANG | D - [JIGUANGSessionController] sis is on protect
+2017-08-02 17:47:38.695 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:47:38.696 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:47:38.696 | JIGUANG | D - [JIGUANGSessionController] connectTcp:121.46.25.200:7006
+2017-08-02 17:47:38.698 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 121.46.25.200,port 7006
+2017-08-02 17:47:43.707 | JIGUANG | E - [JIGUANGTcpSocket] connect failed with socket timeout
+2017-08-02 17:47:43.710 | JIGUANG | E - [JIGUANGTcpSocket] connect socket failed:socket timeout
+2017-08-02 17:47:43.711 | JIGUANG | E - [JIGUANGSessionController] 连接服务器失败
+2017-08-02 17:47:43.722 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:47:43.722 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:47:43.723 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:47:43.723 | JIGUANG | D - [JIGUANGSessionController] connectTcp:47.90.7.116:7006
+2017-08-02 17:47:43.724 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 47.90.7.116,port 7006
+2017-08-02 17:47:43.793 | JIGUANG | D - [JIGUANGTcpSocket] 连接主机成功
+2017-08-02 17:47:43.795 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2017-08-02 17:47:43.796 | JIGUANG | D - [JIGUANGSessionController] Action - connectUdp:
+2017-08-02 17:47:43.796 | JIGUANG | D - [JIGUANGSessionController] Action - connectWithUdpCoreAddress:
+2017-08-02 17:47:43.798 | JIGUANG | D - [JIGUANGUdpSocket] udp socket connected
+2017-08-02 17:47:43.862 | JIGUANG | D - [JIGUANGSessionController] Action - doSendTcpRequest
+2017-08-02 17:47:43.968 | JIGUANG | D - [JIGUANGTcpSocket] tcp connection closed by remote
+2017-08-02 17:47:43.970 | JIGUANG | D - [JIGUANGTcpSocket] 关闭TCP连接
+2017-08-02 17:47:43.973 | JIGUANG | W - [JIGUANGSessionController] 连接被关闭
+2017-08-02 17:47:43.975 | JIGUANG | W - [JIGUANGSessionController] connect close by remote
+2017-08-02 17:47:43.976 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidCloseNotification (null)
+2017-08-02 17:47:43.977 | JIGUANG | D - [JIGUANGSessionController] Action - reenqueueSendingRequests
+2017-08-02 17:47:43.978 | JIGUANG | D - [JIGUANGUdpSocket] close udp socket,info:
+2017-08-02 17:47:43.984 | JIGUANG | D - [JIGUANGUtilities] NetWork Check Result cunrrent netWork ipv4
+2017-08-02 17:47:43.985 | JIGUANG | D - [JIGUANGSessionController] Action - startDelaySetupTimer
+2017-08-02 17:47:43.986 | JIGUANG | D - [JIGUANGSessionController] session will setup delayed with time interval: 2.000000
+2017-08-02 17:47:45.990 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPFNetworkIsConnectingNotification (null)
+2017-08-02 17:47:45.992 | JIGUANG | D - [JIGUANGSessionController] Action - connect
+2017-08-02 17:47:45.993 | JIGUANG | D - [JIGUANGSessionController] Action - isSisOnProtect
+2017-08-02 17:47:45.993 | JIGUANG | D - [JIGUANGSessionController] sis is on protect
+2017-08-02 17:47:45.994 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-08-02 17:47:45.995 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-08-02 17:47:45.995 | JIGUANG | D - [JIGUANGSessionController] connectTcp:121.46.25.200:7006
+2017-08-02 17:47:45.996 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 121.46.25.200,port 7006
+2017-08-02 17:47:46.402 | JIGUANG | D - [JIGUANGService] Action - resetBadge

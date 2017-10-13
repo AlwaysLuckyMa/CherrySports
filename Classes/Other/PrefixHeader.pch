@@ -1,0 +1,325 @@
+//
+//  PrefixHeader.pch
+//  CherrySports
+//
+//  Created by dkb on 16/10/25.
+//  Copyright © 2016年 dkb. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//内网测试IP
+#define SERVER_URL  @"http://192.168.1.109:8081/cherryitf/v2"
+#define SERVER_URLL @"http://"
+
+//外网测试IP
+//#define SERVER_URL  @"http://testcherryitf.lx-sports.cn/cherryitf/v2"
+//#define SERVER_URLL @"http://"
+
+//外网生产IP
+//#define SERVER_URL  @"https://cherryitf.lx-sports.cn/cherryitf/v2"
+//#define SERVER_URLL @"https://"
+
+//#define SERVER_NEW @""
+
+// 图片文件路径
+#define FILE_URL @"https://192.168.0.3/images"
+//#define FILE_URL @"http://image.shenzhoucheng.com/images"
+
+// 沙盒路径
+#define DKBFilePath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)lastObject] stringByAppendingPathComponent:@"imageArray.data"]
+
+//文件大小
+#define FILE_SIZE25 @""
+//城市ID
+#define CITYID [[NSUserDefaults standardUserDefaults] objectForKey:@"cityId"]
+// userId
+#define USERID [[NSUserDefaults standardUserDefaults] objectForKey:@"UserID"]
+// 用户坐标
+#define USERLOCATION [[NSUserDefaults standardUserDefaults] objectForKey:@"UserLocation"]
+// 维度
+#define LOCATIONWD [[NSUserDefaults standardUserDefaults] objectForKey:@"locationWD"]
+// 经度
+#define LOCATIONJD [[NSUserDefaults standardUserDefaults] objectForKey:@"locationJD"]
+// 用户登录渠道
+#define LOGINCHANNEL [[NSUserDefaults standardUserDefaults] objectForKey:@"LoginChannel"]
+
+// 取用户model
+#define USERDIC [[NSUserDefaults standardUserDefaults] objectForKey:@"UserDic"]
+/** 当前系统时间*/
+#define SYSTIME [[NSUserDefaults standardUserDefaults] objectForKey:@"isMessageTime"]
+
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+#define IOS8 [[[UIDevice currentDevice]systemVersion] floatValue] >= 8.0
+
+#define PLACEHOLDW [UIImage imageNamed:@"back_image_width"]
+#define PLACEHOLDH [UIImage imageNamed:@"back_image_height"]
+
+#define PLACEHOLDNAN [UIImage imageNamed:@"mine_nan"]
+#define PLACEHOLDNV [UIImage imageNamed:@"mine_nv"]
+
+#if DEBUG
+#define NSlog(FORMAT, ...) fprintf(stderr,"[%s:%d行] %s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSlog(FORMAT, ...) nil
+#endif
+
+// 屏幕比例
+#define SCREEN_WIDTH     [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT    [UIScreen mainScreen].bounds.size.height
+
+#define WIDTH [UIScreen mainScreen].bounds.size.width / 375;
+#define HEIGHT [UIScreen mainScreen].bounds.size.height / 667;
+
+// tabBar
+#import "DKBTabBar.h" // 自定义tabbar
+#import "DKBTabBarController.h"
+#import "DKBNavigationController.h"
+
+// 类扩展
+#import "UIBarButtonItem+DKBHelper.h"
+#import "UIView+DKBHelper.h"
+#import "UINavigationBar+Awesome.h"
+#import "UIViewController+HUD.h"
+/** 黑色*/
+#define STATUS_BLACK [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+/** 白色*/
+#define STATUS_WIHTE [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+// 颜色
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+/** 深黑字体*/
+//#define TEXT_COLOR_DARK UIColorFromRGB(0x0d0d0d)
+#define TEXT_COLOR_DARK UIColorFromRGB(0x222222)
+/** 淡灰字体*/
+#define TEXT_COLOR_LIGHT UIColorFromRGB(0x9e9e9e)
+/** 红色字体*/
+#define TEXT_COLOR_RED UIColorFromRGB(0xbd071d)
+/** 导航栏颜色*/
+#define NAVIGATIONBAR_COLOR UIColorFromRGB(0xbd071d)
+/** 像素细线颜色*/
+#define LINE_COLOR UIColorFromRGB(0xd3d3d3)
+/** */
+#define BACK_GROUND_COLOR UIColorFromRGB(0xf4f4f4)
+
+// 字体字号
+#define TEXT_FONT_BIG       [UIFont systemFontOfSize:16.0f]; /**< 16*/
+#define TEXT_FONT_MEDIUM    [UIFont systemFontOfSize:14.0f]; /**< 14*/
+#define TEXT_FONT_SMALL     [UIFont systemFontOfSize:12.0f]; /**< 12*/
+// 旋转动画计算 label.transform = CGAffineTransformMakeRotation(degreesToRadinas(90));//旋转90度（将90度转换为弧度）
+#define degreesToRadinas(x) (M_PI * (x)/180.0)
+
+// Base
+#import "BaseModel.h"
+#import "BaseViewController.h"
+#import "AppTools.h"
+#import "CustomTextField.h"
+#import "DialogView.h"
+#import "MyRefresh.h"
+#import "KBDataBaseSingle.h"
+
+// 系统
+#import <Foundation/Foundation.h>
+#import <AlipaySDK/AlipaySDK.h>
+// 三方
+#import <AFNetworking.h>
+
+#import "SDImageCache.h"
+#import "SDWebImageManager.h"
+#import <UIImageView+WebCache.h>
+
+#import <Masonry.h>
+#import <MJRefresh.h>
+//#import <Reachability.h>
+#import <CommonCrypto/CommonDigest.h>
+#import <AFNetworking.h>
+#import <MJExtension.h>
+#import <MBProgressHUD.h>
+#import <FMDatabase.h>
+#import <FMDB.h>
+#import <IQKeyboardManager.h>
+#import <IQKeyboardReturnKeyHandler.h>
+// JS交互
+//#import <JavaScriptCore/JavaScriptCore.h>
+#import "WebViewJavascriptBridge.h"
+#import <NJKWebViewProgressView.h>
+#import <NJKWebViewProgress.h>
+// 友盟登录框架
+#import <UMSocialCore/UMSocialCore.h>
+// 分享框架
+#import <UShareUI/UShareUI.h>
+// 支付宝
+#import <AlipaySDK/AlipaySDK.h>
+#import "alialiPay.h"
+// 微信
+#import "weChatPay.h"
+#import <WXApi.h>
+// 极光 功能头文件
+#import "JPUSHService.h"
+#import "JPushTagAndAlias.h"
+// 极光 IOS10注册APNs头文件
+#ifdef NSFoundationVersionNumber_iOS_9_x_Max
+#import <UserNotifications/UserNotifications.h>
+#endif
+// 如果需要使用idfa功能所需要引入的头文件（可选）
+#import <AdSupport/AdSupport.h>
+
+// 功能方法
+#import "ServerUtility.h"
+//#import "JSDropDownMenu.h"
+#import "MapLocation.h"
+
+// 百度地图头文件
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>//引入base相关所有的头文件
+#import <BaiduMapAPI_Map/BMKMapComponent.h>//引入地图功能所有的头文件
+#import <BaiduMapAPI_Location/BMKLocationComponent.h>//引入定位功能所有的头文件
+#import <BaiduMapAPI_Map/BMKMapView.h>//只引入所需的单个头文件
+#import <BaiduMapAPI_Search/BMKSearchComponent.h>//引入检索功能所有的头文件
+#import <BaiduMapAPI_Cloud/BMKCloudSearchComponent.h>//引入云检索功能所有的头文件
+#import <BaiduMapAPI_Utils/BMKUtilsComponent.h>//引入计算工具所有的头文件
+#import <BaiduMapAPI_Radar/BMKRadarComponent.h>//引入周边雷达功能所有的头文件
+
+#import "BDSSpeechSynthesizer.h" //百度离线语音合成类
+#import "BDVoice.h"
+// 收藏第三方用的宏
+
+// 系统框架
+#import <CoreText/CoreText.h>
+
+#define DOT_COORDINATE                  0.0f
+#define STATUS_BAR_HEIGHT               20.0f
+#define BAR_ITEM_WIDTH_HEIGHT           30.0f
+#define NAVIGATION_BAR_HEIGHT           44.0f
+#define TAB_TAB_HEIGHT                  49.0f
+#define TABLE_VIEW_ROW_HEIGHT           NAVIGATION_BAR_HEIGHT
+#define CONTENT_VIEW_HEIGHT_NO_TAB_BAR  (SCREEN_HEIGHT - STATUS_BAR_HEIGHT - NAVIGATION_BAR_HEIGHT)
+#define CONTENT_VIEW_HEIGHT_TAB_BAR     (CONTENT_VIEW_HEIGHT_NO_TAB_BAR - TAB_TAB_HEIGHT)
+
+#define UIColorWithRGBA(r,g,b,a)        [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+
+#define ARROW_BUTTON_WIDTH              NAVIGATION_BAR_HEIGHT
+#define NAV_TAB_BAR_HEIGHT              ARROW_BUTTON_WIDTH
+#define ITEM_HEIGHT                     NAV_TAB_BAR_HEIGHT
+
+#define NavTabbarColor                  UIColorWithRGBA(240.0f, 230.0f, 230.0f, 1.0f)
+#define SCNavTabbarBundleName           @"SCNavTabBar.bundle"
+
+#define SCNavTabbarSourceName(file) [SCNavTabbarBundleName stringByAppendingPathComponent:file]
+
+
+#pragma mark - 偷懒宏 -----------------------------------------------------------
+
+// App Frame
+#define Application_Frame       [[UIScreen mainScreen] applicationFrame]
+
+// App Frame Height&Width
+#define kScreenWidth        [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight       [UIScreen mainScreen].bounds.size.height
+
+// MainScreen Height&Width
+#define Main_Screen_Height      [[UIScreen mainScreen] bounds].size.height
+#define Main_Screen_Width       [[UIScreen mainScreen] bounds].size.width
+
+
+// 系统控件默认高度
+#define StatusBarHeight        (20.f)
+#define TopBarHeight           (44.f)
+#define BottomBarHeight        (49.f)
+#define CellDefaultHeight      (44.f)
+#define EnglishKeyboardHeight  (216.f)
+#define ChineseKeyboardHeight  (252.f)
+
+
+// 沙盒路径
+#define PATH_OF_APP_HOME    NSHomeDirectory()
+#define PATH_OF_TEMP        NSTemporaryDirectory()
+#define PATH_OF_DOCUMENT    [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+
+
+// 颜色(RGB)
+#define RGBCOLOR(r, g, b)       [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+#define RGBACOLOR(r, g, b, a)   [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+#define HexRGBA(rgbValue, a)     [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
+// 随机颜色
+#define RANDOM_UICOLOR     [UIColor colorWithRed:arc4random_uniform(256) / 255.0 green:arc4random_uniform(256) / 255.0 blue:arc4random_uniform(256) / 255.0 alpha:1]
+
+
+// View 圆角和加边框
+#define ViewBorderRadius(View, Radius, Width, Color)\
+\
+[View.layer setCornerRadius:(Radius)];\
+[View.layer setMasksToBounds:YES];\
+[View.layer setBorderWidth:(Width)];\
+[View.layer setBorderColor:[Color CGColor]]
+
+// View 圆角
+#define ViewRadius(View, Radius)\
+\
+[View.layer setCornerRadius:(Radius)];\
+[View.layer setMasksToBounds:YES]
+
+// 当前语言
+#define CURRENTLANGUAGE         ([[NSLocale preferredLanguages] objectAtIndex:0])
+
+// 判断机型
+#define IS_IPHONE_4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+#define IS_IPHONE_5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define IS_IPHONE_6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define IS_IPHONE_6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+
+
+// 通知相关
+#define ADD_OBSERVER(_selector,_name) \
+[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(_selector) name:_name object:nil];
+//post
+#define POST_NOTIFICATION_WITH_OBJECT_AND_INFO(_name, _object, _info) \
+([[NSNotificationCenter defaultCenter] postNotificationName:_name object:_object userInfo:_info])
+#define POST_NOTIFICATION(_name) \
+POST_NOTIFICATION_WITH_OBJECT_AND_INFO(_name, nil, nil)
+#define POST_NOTIFICATION_WITH_OBJECT(_name, _object) \
+POST_NOTIFICATION_WITH_OBJECT_AND_INFO(_name, _object, nil)
+#define POST_NOTIFICATION_WITH_INFO(_name, _info) \
+POST_NOTIFICATION_WITH_OBJECT_AND_INFO(_name, nil, _info)
+//remove
+#define REMOVE_OBSERVER(_name) \
+([[NSNotificationCenter defaultCenter] removeObserver:self name:_name object:nil])
+#define REMOVE_ALL_OBSERVERS(_self) \
+([[NSNotificationCenter defaultCenter] removeObserver:_self])
+
+
+//单例宏
+#define SINGLETON_FOR_HEADER(className) \
+\
++ (className *)shareInstance;
+
+#define SINGLETON_FOR_IMPLEMENTATION(className) \
+\
++ (className *)shareInstance { \
+static className *shared##className = nil; \
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+shared##className = [[self alloc] init]; \
+}); \
+return shared##className; \
+}
+
+
+
+#define ZNSYSFont @"STHeitiSC-Light"
+#define ZNSYSFont_BOLD @"STHeitiSC-bold"
+#define ZNScale kScreenWidth/320.0
+
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+#define OBJECT_YANDHEIGHT(x) (x.frame.size.height + x.frame.origin.y)
+#define OBJECT_WIDTH(x) (x.frame.size.width)
+#define OBJECT_HEIGHT(x) (x.frame.size.height)
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

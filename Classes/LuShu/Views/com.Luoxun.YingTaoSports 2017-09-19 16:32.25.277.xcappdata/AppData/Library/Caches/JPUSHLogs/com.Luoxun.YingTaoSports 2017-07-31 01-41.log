@@ -1,0 +1,147 @@
+2017-07-31 09:41:21.699 | JIGUANG | D - [JIGUANGService] Action - JPUSH begin Setup with appkey:95d7300332032f599feb9617 channel:App Store isProduction:FALSE advertisingIdentifier: 551293DB-2F87-49B9-881F-B742CFC88A2D
+2017-07-31 09:41:21.760 | JIGUANG | I - [JIGUANGService] 
+--------------------------- JPush Log ----------------------------
+--------------------JPush SDK Version:3.0.0--build:13----------
+--------------------JCore Lib Version:1.0.0------------
+-----------------AppKey:95d7300332032f599feb9617----------------
+----------------------------------------------------------------
+2017-07-31 09:41:21.762 | JIGUANG | I - [JIGUANGClientController] Action - jpush setup
+2017-07-31 09:41:21.765 | JIGUANG | I - [JIGUANGClientController] Action - setup
+2017-07-31 09:41:21.776 | JIGUANG | E - [JIGUANGClientController] load aps evi error, no em provision url
+2017-07-31 09:41:21.816 | JIGUANG | D - [JIGUANGService] Action - resetBadge
+2017-07-31 09:41:21.981 | JIGUANG | D - [JIGUANGHttpSessionController] 获取当前设备网络的 wifi 或者 WWAN 信息
+2017-07-31 09:41:22.002 | JIGUANG | D - [JIGUANGHttpSessionController] wifi 信息:{
+	ssid = "洛浔体育-电脑";
+	mac_address = "f4:83:cd:a9:11:42"
+}
+2017-07-31 09:41:22.002 | JIGUANG | D - [JIGUANGPageFlow] trySetupSession
+2017-07-31 09:41:22.003 | JIGUANG | D - [JIGUANGPageFlow] setupSession
+2017-07-31 09:41:22.064 | JIGUANG | D - [JIGUANGUserActiveReport] report content {
+	time = "15:28:04";
+	session_id = "378bd8130e6c2768691b5d95fe305ad9";
+	duration = 1150.6;
+	date = "2017-07-26";
+	type = "active_terminate";
+	itime = 1501054084;
+	activities = [
+	];
+	timezone = "+8"
+}
+2017-07-31 09:41:22.092 | JIGUANG | D - [JIGUANGHttpSessionController] Action - setupSession
+2017-07-31 09:41:22.093 | JIGUANG | D - [JIGUANGPageFlow] setupSession
+2017-07-31 09:41:22.093 | JIGUANG | D - [JIGUANGPageFlow] resetCurrentPage
+2017-07-31 09:41:22.147 | JIGUANG | D - [JIGUANGLocationReport] wifi 信息:{
+	mac_address = "f4:83:cd:a9:11:42";
+	ssid = "洛浔体育-电脑"
+}
+2017-07-31 09:41:22.207 | JIGUANG | D - [JIGUANGService] Action - registerDeviceToken: <36d801b4 bddd2e59 783bcf35 cef0ef94 91ec09fc a444f130 4d4ad366 04f8118f>
+2017-07-31 09:41:22.290 | JIGUANG | D - [JIGUANGUserDefaultsController] Action - setCurrentDeviceToken - 36d801b4bddd2e59783bcf35cef0ef9491ec09fca444f1304d4ad36604f8118f
+2017-07-31 09:41:22.291 | JIGUANG | D - [JIGUANGNetworkController] Action - trySetupSession
+2017-07-31 09:41:22.291 | JIGUANG | D - [JIGUANGHttpSessionController] Action - setupSession
+2017-07-31 09:41:22.291 | JIGUANG | D - [JIGUANGNetworkController] userDefaut verified: 1, curNetworkStatus: 2
+2017-07-31 09:41:22.292 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPFNetworkIsConnectingNotification (null)
+2017-07-31 09:41:22.292 | JIGUANG | D - [JIGUANGSessionController] Action - connect
+2017-07-31 09:41:22.292 | JIGUANG | D - [JIGUANGSessionController] Action - isSisOnProtect
+2017-07-31 09:41:22.292 | JIGUANG | D - [JIGUANGSessionController] sis is not on protect
+2017-07-31 09:41:22.293 | JIGUANG | D - [JIGUANGSessionController] Action - reset sis cache
+2017-07-31 09:41:22.293 | JIGUANG | D - [JIGUANGAddressController] 开始Sis解析
+2017-07-31 09:41:22.294 | JIGUANG | D - [JIGUANGAddressController] Action - sendSisRequest
+2017-07-31 09:41:22.508 | JIGUANG | D - [JIGUANGAddressController] get address :121.46.20.41 from host : s.jpush.cn
+2017-07-31 09:41:22.510 | JIGUANG | D - [JIGUANGAddressController] Action - sendSisRequest:toDefaultPort
+2017-07-31 09:41:22.511 | JIGUANG | D - [JIGUANGUdpSocket] close udp socket,info:
+2017-07-31 09:41:22.577 | JIGUANG | D - [JIGUANGUdpSocket] send udp data
+2017-07-31 09:41:22.578 | JIGUANG | D - [JIGUANGUdpSocket] send udp data succeed
+2017-07-31 09:41:22.579 | JIGUANG | D - [JIGUANGUdpSocket] udp socket begin send behavior
+2017-07-31 09:41:22.687 | JIGUANG | D - [JIGUANGAddressController] Action - parse
+2017-07-31 09:41:22.732 | JIGUANG | D - [JIGUANGAddressController] Action - parse ips address
+2017-07-31 09:41:22.827 | JIGUANG | D - [JIGUANGAddressController] Action - parseUdpReportAddress:
+2017-07-31 09:41:22.885 | JIGUANG | D - [JIGUANGAddressController] Action - parseOptionAddress
+2017-07-31 09:41:22.887 | JIGUANG | D - [JIGUANGUdpSocket] close udp socket,info:
+2017-07-31 09:41:22.888 | JIGUANG | D - [JIGUANGAddressController] receive sis result
+2017-07-31 09:41:22.889 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:afterConnectUdp:
+2017-07-31 09:41:22.889 | JIGUANG | D - [JIGUANGSessionController] Action - connectTcp:
+2017-07-31 09:41:22.889 | JIGUANG | D - [JIGUANGSessionController] connectTcp:114.67.46.73:7004
+2017-07-31 09:41:22.890 | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 114.67.46.73,port 7004
+2017-07-31 09:41:22.955 | JIGUANG | D - [JIGUANGTcpSocket] 连接主机成功
+2017-07-31 09:41:22.986 | JIGUANG | D - [JIGUANGReport] send report:[
+	{
+		session_id = "45638e624bcf084c575ac443fb371064";
+		date = "2017-07-31";
+		timezone = "+8";
+		type = "active_launch";
+		time = "09:41:22";
+		itime = 1501465282
+	}
+] log succed
+2017-07-31 09:41:22.987 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidSetupNotification (null)
+2017-07-31 09:41:22.988 | JIGUANG | D - [JIGUANGSessionController] Action - connectUdp:
+2017-07-31 09:41:22.989 | JIGUANG | D - [JIGUANGSessionController] Action - connectWithUdpCoreAddress:
+2017-07-31 09:41:22.990 | JIGUANG | D - [JIGUANGUdpSocket] udp socket connected
+2017-07-31 09:41:23.060 | JIGUANG | D - [JIGUANGSessionController] Action - doSendTcpRequest
+2017-07-31 09:41:23.071 | JIGUANG | D - [JIGUANGReport] send report:[
+	{
+		model = "iPhone7,2";
+		os_version = "10.3.3";
+		timezone = "+8";
+		language = "zh-Hans-CN";
+		type = "device_info";
+		itime = 1501465282;
+		resolution = "640x1136"
+	}
+] log succed
+2017-07-31 09:41:23.089 | JIGUANG | D - [JIGUANGReport] send report:[
+	{
+		type = "loc_info";
+		itime = 1501465282;
+		data = [
+			{
+				cell = [
+					{
+					}
+				];
+				wifi = [
+					{
+						ssid = "洛浔体育-电脑";
+						mac_address = "f4:83:cd:a9:11:42"
+					}
+				];
+				gps = [
+					{
+					}
+				];
+				itime = 1501465282
+			}
+		]
+	}
+] log succed
+2017-07-31 09:41:23.106 | JIGUANG | D - [JIGUANGReport] send report:[
+	{
+		time = "15:28:04";
+		session_id = "378bd8130e6c2768691b5d95fe305ad9";
+		duration = 1150.6;
+		date = "2017-07-26";
+		type = "active_terminate";
+		itime = 1501054084;
+		activities = [
+		];
+		timezone = "+8"
+	}
+] log succed
+2017-07-31 09:41:23.125 | JIGUANG | I - [JIGUANGLogin] 
+----- login result -----
+uid:7886420983 
+registrationID:18171adc030299ef4ba
+2017-07-31 09:41:23.126 | JIGUANG | D - [JIGUANGTcpSocket] Got tcp command
+2017-07-31 09:41:23.127 | JIGUANG | D - [JIGUANGSessionController] Action - onAckOrRespReceived:
+2017-07-31 09:41:23.129 | JIGUANG | D - [JIGUANGSessionController] Event - onLoginRespond
+2017-07-31 09:41:23.131 | JIGUANG | D - [JIGUANGUtilities] JCOREPostNotificationWithUserInfo name: kJPUSHNetworkDidLoginNotification (null)
+2017-07-31 09:41:23.131 | JIGUANG | D - [JIGUANGUdpSocket] send udp data
+2017-07-31 09:41:23.132 | JIGUANG | D - [JIGUANGUdpSocket] send udp data succeed
+2017-07-31 09:41:23.132 | JIGUANG | D - [JIGUANGUdpSocket] udp socket begin send behavior
+2017-07-31 09:41:23.152 | JIGUANG | I - [JIGUANGBadgeNumberReport] set badge:0 succeed
+2017-07-31 09:43:02.846 | JIGUANG | D - [JIGUANGService] Action - resetBadge
+2017-07-31 09:43:03.875 | JIGUANG | I - [JIGUANGBadgeNumberReport] set badge:0 succeed
+2017-07-31 09:46:13.163 | JIGUANG | D - [JIGUANGSessionController] Action - doSendTcpRequest
+2017-07-31 09:46:13.250 | JIGUANG | D - [JIGUANGTcpSocket] Got tcp command
+2017-07-31 09:46:13.250 | JIGUANG | D - [JIGUANGSessionController] Action - onAckOrRespReceived:
+2017-07-31 09:49:45.443 | JIGUANG | D - [JIGUANGPageFlow] savePageFlowWithTime
